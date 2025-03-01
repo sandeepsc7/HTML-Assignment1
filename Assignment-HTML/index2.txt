@@ -1,0 +1,55 @@
+DOCTYPE Declaration in HTML
+
+The DOCTYPE declaration is a special instruction that tells the web browser what version of HTML the page is written in. It ensures that the browser renders the page correctly according to the standards of the specified HTML version. The DOCTYPE declaration must be placed at the very beginning of an HTML document before the <html> tag.
+Purpose of DOCTYPE:
+
+    Indicates HTML Version: It tells the browser which version of HTML is being used, allowing the browser to interpret the page correctly.
+    Triggers Standards Mode: It helps ensure that the browser renders the page in "standards mode" (using the most up-to-date rendering rules), rather than "quirks mode," which can lead to inconsistent rendering across browsers.
+
+Syntax of DOCTYPE:
+
+In modern HTML (HTML5), the DOCTYPE declaration is very simple and looks like this:
+
+<!DOCTYPE html>
+
+This declaration indicates that the document is an HTML5 document. The <!DOCTYPE html> declaration is not case-sensitive, but it is usually written in uppercase by convention.
+Examples of DOCTYPE Declarations in Different HTML Versions:
+
+    HTML5 (current standard):
+
+<!DOCTYPE html>
+
+HTML 4.01 (Strict):
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+HTML 4.01 (Transitional):
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+XHTML 1.0 (Strict):
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+Why DOCTYPE is Important:
+
+    Compatibility: It helps ensure that modern web pages render consistently across different browsers.
+    Standards Mode: The DOCTYPE declaration triggers the standards mode in browsers, ensuring they follow modern web standards rather than older, outdated quirks.
+
+Example HTML5 Document with DOCTYPE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a simple HTML5 page.</p>
+</body>
+</html>
+
+In this example, <!DOCTYPE html> ensures the browser knows it's an HTML5 document and renders it according to HTML5 standards.
+
